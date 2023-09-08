@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    }
+    
+    body { 
+        background-color:gray;
+    }
+
+   nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+     nav li {
+        float: left;
+      }
+      
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      nav li a:hover {
+        background-color: #111;
+      }
+
+      h1 {
+    background-image: url(https://th.bing.com/th/id/OIP.486Cfd6JuibF1D__qGSIFAHaEo?pid=ImgDet&rs=1);
+    margin: 0;
+    max-height: fit-content;
+    padding: 30px;
+    }
+
+      #bio {
+        color: whitesmoke;
+        text-align: center;       
+      }
+
+      #home {
+        text-align: center;
+        color: whitesmoke;
+      }
+
+      #WDM {
+        text-align: left;
+        color: whitesmoke;
+      }
+
+    p {
+    color: whitesmoke;
+     }
