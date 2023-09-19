@@ -2,25 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My dashboard</title>
-    <link rel="stylesheet" <a href="styles.css"></a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav>
 
-        <ul>
-            <li> <a href="./index.html">Home</a></li>
-            <li> <a href="./profile.html">Who am i?</a></li>
-            <li> <a href="./dashboard.html">Dashboard</a></li>
-            <li> <a href="faq.html">FAQ</a></li>
+  <nav>
+
+    <ul>
+      <li> <a href="./index.html">Home</a></li>
+      <li> <a href="./profile.html">Who am i?</a></li>
+      <li> <a style="color: darkred;" href="./dashboard.html">Dashboard</a></li>
+      <li> <a href="faq.html">FAQ</a></li>
+      <li> <a href="./blog.html">Blog</a></li>
+      <li style="float: right;"> <a href="./about.html">About ↓</a>
+        <ul class="dropdown">
+          <li> <a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070">Course and
+              Examination Regulations</a></li>
+          <li> <a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf">Implementation
+              Regulations</a></li>
+          <li> <a
+              href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4">Assignment
+              specification</a></li>
+          <li> <a
+              href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams
+              environment</a></li>
+          <li> <a href="https://hz.osiris-student.nl/#/voortgang/">Study progress</a></li>
+          <li> <a href="https://github.com/HZ-HBO-ICT">Github</a></li>
         </ul>
 
-    </nav>
+  </nav>
 
-    <h1>My Dashboard</h1>
+  <h1>My Dashboard</h1>
+
+  <table style="margin-left: auto; margin-right: auto;">
+    <tr>
+      <th>Quartile</th>
+      <th>Course name</th>
+      <th>Course code</th>
+      <th>EC</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td rowspace="3">Quartile 1</td>
+      <td>Program- & Career Orientation (PCO) </td>
+      <td>CU75001V3</td>
+      <td>2.5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Computer Science Basics (CBA) </td>
+      <td>CU75002V2</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Programming Basics (PBA)</td>
+      <td>CU75003V1</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspace="3">Quartile 2</td>
+      <td>Personal professional development: Exploration (PPD-E) </td>
+      <td>CU75068V1</td>
+      <td>12.5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>IT Personality Projectweek 1 (PPW1)</td>
+      <td>CU75054V1</td>
+      <td>1.25</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>IT Personality 1 (ITP1)</td>
+      <td>CU75056V1</td>
+      <td>1.25</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Object-oriented programming (OOP)</td>
+      <td>CU75004v1</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspace="3">Quartile 3></td>
+      <td>Framework development 1 (FDE1)</td>
+      <td>CU75008V1</td>
+      <td>5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Framework Project 1 (FPR1)</td>
+      <td>CU75009V3</td>
+      <td>7.5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspace="3">Quartile 4></td>
+      <td>Framework project 2 (FPR2)</td>
+      <td>CU75011V3</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>T Personality International week (PIW)</td>
+      <td>CU75055V1</td>
+      <td>1.25</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>IT Personality2 (ITP2)</td>
+      <td>CU75057V1</td>
+      <td>1.25</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <div class="dashboard">
+    <svg>
+      <circle class="bg" cx="57" cy="57" r="52" />
+      <circle class="meter-1" cx="57" cy="57" r="52" />
+    </svg>
+  </div>
+  <h4 style="text-align: left;">Progress made so far</h4>
+
 
 </body>
 
